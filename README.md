@@ -6,7 +6,7 @@
 
 ## Podmínky pro splnění kurzu
 
-- aktivní účast na 9/12
+- aktivní účast na 10/12
 - splnění DÚ - 2 ze 3 + uznaný závěrečný projekt
 
 
