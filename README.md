@@ -1,1 +1,1 @@
-# Kurz-JS-1
+# JavaScript 1 - základy
