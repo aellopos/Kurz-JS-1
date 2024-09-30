@@ -15,3 +15,4 @@
 |    | Datum     | Téma             | Materiály                                                           | Příklady - lekce        | Domácí úkol
 | -- | --------- | ---------------- | -------------------------------------------------------------------- | ------------- | -------------
 | 01  | 23.09.2024 | Úvod | [materiály](https://kodim.cz/czechitas/js1/lekce/uvod-do-js/javascript) | [zadání/řešení](./solution/lekce-01.md) | -
+| 02  | 30.09.2024 | Git a GitHub | [materiály](./pdfs/lekce02.pdf) | [zadání/řešení](./solution/lekce-02.md) | -
