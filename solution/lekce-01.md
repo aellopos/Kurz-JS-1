@@ -15,13 +15,14 @@
 #### Měsíční příjem
 
 ```js
-Tady zatím nic není. :) 
+document.body.innerHTML += 21 * 7 * 320;
 ```
 
 #### Daň
 
 ```js
-Tady zatím nic není. :) 
+document.body.innerHTML += '<br>';
+document.body.innerHTML += Math.floor(21 * 7 * 265 * (1 - 0.6) * 0.15);
 ```
 
 </details>
@@ -41,13 +42,14 @@ V programu kin se často uvádí délka filmu v minutách. Například rozšíř
 #### Počet celých hodin
 
 ```js
-Tady zatím nic není. :) 
+document.body.innerHTML += Math.floor(223 / 60);
 ```
 
 #### A počet zbývajících minut
 
 ```js
-Tady zatím nic není. :) 
+document.body.innerHTML += ':';
+document.body.innerHTML += 223 % 60;
 ```
 
 
@@ -65,7 +67,7 @@ Tady zatím nic není. :)
 
 
 ```js
-Tady zatím nic není. :) 
+'Franta' + '.' + 'Dobrota' + '@mujmail.com';
 ```
 
 
@@ -90,7 +92,10 @@ Představte si, že jste pořadatelé ultramaratonského závodu. Závod začín
 
 
 ```js
-Tady zatím nic není. :) 
+const start = 15;
+const delka = 10;
+const konec = (start + delka) % 24;
+document.body.innerHTML = 'Čas konce v hodinách: ' + konec;
 ```
 
 
@@ -107,7 +112,7 @@ Založte si JavaScriptový program a pomocí `document.body.innerHTML` a funkce 
 
 
 ```js
-Tady zatím nic není. :) 
+document.body.innerHTML = Math.random();
 ```
 
 
@@ -129,7 +134,10 @@ Tady zatím nic není. :)
 
 
 ```js
-Tady zatím nic není. :) 
+const wageInEur = 20;
+const rate = 24.55;
+const wageInCzk = Math.round(wageInEur * rate);
+document.body.innerHTML = '<h1>Mzda v korunách: ' + wageInCzk + ' Kč</h1>';
 ```
 
 
