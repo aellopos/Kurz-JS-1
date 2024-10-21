@@ -18,3 +18,4 @@
 | 02  | 30.09.2024 | Git a GitHub | [materiály](./pdfs/lekce02.pdf) | [zadání/řešení](./solution/lekce-02.md) | -
 | 03  | 07.10.2024 | Vstup a výstup, objekty | [materiály](https://kodim.cz/czechitas/js1/lekce/vstup-vystup-objekty/vstup) | [zadání/řešení](./solution/lekce-03.md) | -
 | 04  | 14.10.2024 | Práce s řetězci, podmínky | [materiály](https://kodim.cz/czechitas/js1/lekce/retezce-podminky/vlastnosti-metody) | [zadání/řešení](./solution/lekce-04.md) | -
+| 05  | 21.10.2024 | DOM a innerHTML | [materiály](https://kodim.cz/czechitas/js1/lekce/dom-innerhtml/dom) | [zadání/řešení](./solution/lekce-05.md) | [zadání/řešení](./solution/du_pata_lekce.md)
