@@ -19,3 +19,4 @@
 | 03  | 07.10.2024 | Vstup a výstup, objekty | [materiály](https://kodim.cz/czechitas/js1/lekce/vstup-vystup-objekty/vstup) | [zadání/řešení](./solution/lekce-03.md) | -
 | 04  | 14.10.2024 | Práce s řetězci, podmínky | [materiály](https://kodim.cz/czechitas/js1/lekce/retezce-podminky/vlastnosti-metody) | [zadání/řešení](./solution/lekce-04.md) | -
 | 05  | 21.10.2024 | DOM a innerHTML | [materiály](https://kodim.cz/czechitas/js1/lekce/dom-innerhtml/dom) | [zadání/řešení](./solution/lekce-05.md) | [zadání/řešení](./solution/du_pata_lekce.md)
+| 06  | 28.10.2024 | Knihovny a vlastní funkce | [materiály](https://kodim.cz/czechitas/js1/lekce/knihovny-vlastni-funkce/knihovny) | [zadání/řešení](./solution/lekce-06.md) | -
