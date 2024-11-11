@@ -24,7 +24,12 @@ Každý e-mail je třeba zakončit zdvořilým pozdravem.
 Obsah souboru `index.js`:
 
 ```js
-Tady zatím nic není :)
+const goodbye = (name) => {
+  const closingElement = document.querySelector('.email__closing');
+  closingElement.textContent = `Na shledanou ${name}`;
+};
+
+goodbye('tě pic');
 ```
 
 </details>
@@ -45,7 +50,26 @@ Pokračujte na stránce z přechozího příkladu.
 Obsah souboru `index.js`:
 
 ```js
-Tady zatím nic není :)
+const goodbye = (name) => {
+  return 'S pozdravem ' + name;
+};
+
+const fillSubject = (subject) => {
+  document.querySelector('.email__subject').textContent = subject;
+};
+
+const fillBody = (body, name) => {
+  const bodyElm = document.querySelector('.email__body');
+  bodyElm.innerHTML += body;
+  const closingElm = document.querySelector('.email__closing');
+  closingElm.textContent = goodbye(name);
+};
+
+fillSubject('Nepřišly gumičky');
+fillBody(
+  'Nepřišly gumičky. A co na to počítač? Mlčí. No tak to je konec. Všecko vylejt.',
+  'referent Kubrt'
+);
 ```
 
 </details>
@@ -74,7 +98,28 @@ Pokud funkce jako parametr dostane neznámý kód měny, vrátí jako výsledek 
 <summary><b>Řešení</b></summary>
 
 ```js
-Tady zatím nic není :)
+const convertToCZK = (amount, currency) => {
+  let rate;
+
+  if (currency === 'EUR') {
+    rate = 24.47;
+  } else if (currency === 'GBP') {
+    rate = 28.09;
+  } else if (currency === 'USD') {
+    rate = 24.81;
+  } else if (currency === 'BTC') {
+    rate = 478637;
+  } else {
+    return null;
+  }
+
+  return Math.round(rate * amount);
+};
+
+document.body.innerHTML += `100 € je ${convertToCZK(100, 'EUR')} Kč<br>`;
+document.body.innerHTML += `£ 100 je ${convertToCZK(100, 'GBP')} Kč<br>`;
+document.body.innerHTML += `$ 100 je ${convertToCZK(100, 'USD')} Kč<br>`;
+document.body.innerHTML += `100 bitcoinů je ${convertToCZK(100, 'BTC')} Kč<br>`;
 ```
 
 
@@ -144,7 +189,15 @@ document.body.innerHTML += fillcut('petr', 4) + '<br>'; // vypíše „petr“
 <summary><b>Řešení</b></summary>
 
 ```js
-Tady zatím nic není :)
+const fillcut = (str, len) => {
+  if (str.length > len) {
+    return str.slice(0, len);
+  } else if (str.length < len) {
+    return str.padStart(len, '.');
+  } else {
+    return str;
+  }
+};
 ```
 
 </details>
