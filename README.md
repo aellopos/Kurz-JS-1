@@ -23,3 +23,4 @@
 | 07  | 04.11.2024 | Funkce a obory platnosti | [materiály](https://kodim.cz/czechitas/js1/lekce/funkce-obory/null-undefined) | [zadání/řešení](./solution/lekce-07.md) | -
 | 08  | 11.11.2024 | Funkce jako argumenty, události | [materiály](https://kodim.cz/czechitas/js1/lekce/funkce-arg-udalosti/funkce-arg) | [zadání/řešení](./solution/lekce-08.md) | [zadání/řešení](./solution/du_osma_lekce.md)
 | 09  | 18.11.2024 | Procvičování událostí, formuláře | [materiály](https://kodim.cz/czechitas/js1/lekce/udalosti-formulare/target) | [zadání/řešení](./solution/lekce-09.md) | -
+| 10  | 25.11.2024 | Pole a zpracování dat | [materiály](https://kodim.cz/czechitas/js1/lekce/pole-data/pole) | [zadání/řešení](./solution/lekce-10.md) | [zadání/řešení](./solution/du_desata_lekce.md)
