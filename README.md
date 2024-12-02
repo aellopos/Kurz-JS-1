@@ -24,3 +24,5 @@
 | 08  | 11.11.2024 | Funkce jako argumenty, události | [materiály](https://kodim.cz/czechitas/js1/lekce/funkce-arg-udalosti/funkce-arg) | [zadání/řešení](./solution/lekce-08.md) | [zadání/řešení](./solution/du_osma_lekce.md)
 | 09  | 18.11.2024 | Procvičování událostí, formuláře | [materiály](https://kodim.cz/czechitas/js1/lekce/udalosti-formulare/target) | [zadání/řešení](./solution/lekce-09.md) | -
 | 10  | 25.11.2024 | Pole a zpracování dat | [materiály](https://kodim.cz/czechitas/js1/lekce/pole-data/pole) | [zadání/řešení](./solution/lekce-10.md) | [zadání/řešení](./solution/du_desata_lekce.md)
+| 11  | 02.12.2024 | Vícestránkové aplikace a lovení chyb | [materiály](https://kodim.cz/czechitas/js1/lekce/stranky-chyby/stranky) | [zadání/řešení](./solution/lekce-11.md) | [závěrečný projekt](./solution/zaverecny_projekt.md)
+| 12  | 09.12.2024 | Opakování: FilmBox | - | - | [závěrečný projekt](./solution/zaverecny_projekt.md)
